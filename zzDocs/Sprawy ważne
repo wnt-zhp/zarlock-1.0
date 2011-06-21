@@ -1,0 +1,20 @@
+1!!! Sensowny (szybki!) renderer do tabelki. !!!
+1a. EDYTOR DO TABELKI
+2. Guzik który skraca iloœæ danyuch wyœwietlanych w tabelce
+	- tudzie¿ metoda na kostumizowanie danych wyœwietlanych
+3. Dodaj listenery do klasy Meal
+4. Wywal listenery do Static contenta
+5. Dodaj wszêdzie dok³adne opsiy do wyhj¹tków.
+
+ 
+5. Static class field z metodami:
+	toString(Object)
+	toString(ka¿dy prymityw)
+	która zwraca " Obiekt.toString ", przy czym jeœli 
+	w Obiekt.toString pojawia siê " to jest no nie 
+	wiem dublowany czy coœ.
+	
+	XXX parseString(XXX) 
+	który na wejœciu ma wynik Obiekt.toString i zwraca 
+	Obiekt.
+5a. U¿ywaæ tej klasy wszêdzie w IO

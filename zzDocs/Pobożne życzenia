@@ -1,0 +1,18 @@
+1. ¯eby simpleProductBase by³a sortowana za ka¿dym razem po
+dodaniu do niej produktu. Du¿o ha³asu o nic (choæ bêd¹ zyski czasu wykonania) ;-)
+
+2. ¯eby listenery w Tabelce rzeczywiœcie coœ robi³y zwi¹zanego z argumentami ktróe
+dostaj¹ a nie tylko fireTableDataChanged(); 
+
+3. ¯eby listenery w tabelce by³y w jakimœ Listener Quene (jest coœ takiego w JDK) 
+¯eby nie odpala³y bez sensu fireTableDataChanged(); 
+ 
+ 4. Ró¿ne drobne optymalizacje pamiêci np:
+ 	Meal v2 wielkokrotnie zapisuje to samo pole tytu³em
+ 	
+ 5. Spell check stringów
+ 
+ 6. ¯eby zmiana expenditurki nie by³a mo¿liwa jeœli expenditurka nale¿y do 
+ posi³ku.
+ 
+7. Wszêdzie gdzie s¹ nadpisane metody dodaj @override
